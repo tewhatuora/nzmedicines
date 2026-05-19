@@ -1,0 +1,38 @@
+{
+  "resourceType": "Substance",
+  "id": "2442011000036104",
+  "meta": {
+    "lastUpdated": "2026-05-19T01:27:16.536Z"
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "",
+        "display": "Paracetamol"
+      },
+      {
+        "display": " acetaminophen"
+      }
+    ],
+    "text": "Paracetamol"
+  },
+  "extension": [
+    {
+      "url": "https://nzf.org.nz/fhir/StructureDefinition/nzf-drug-action",
+      "valueMarkdown": "Paracetamol is thought to modulate inhibitory descending serotonergic pathways, preventing transmission of nociceptive signals from the peripheral tissues to the spinal cord. It may also reduce prostaglandin production by inhibiting CNS cyclo-oxygenase pathways, resulting in reduced pain sensation. Inhibition of prostaglandins and endogenous pyrogens in the hypothalamus contribute to its anti-pyretic effect. Paracetamol does not inhibit peripheral cyclo-oxygenase pathways so has negligible anti-inflammatory effect."
+    },
+    {
+      "url": "https://nzf.org.nz/fhir/StructureDefinition/nzf-indications",
+      "valueMarkdown": "Mild to moderate pain; pyrexia with discomfort"
+    },
+    {
+      "url": "https://nzf.org.nz/fhir/StructureDefinition/nzf-contra-indications",
+      "valueMarkdown": "Severe hepatic impairment (see Hepatic impairment below)"
+    },
+    {
+      "url": "https://nzf.org.nz/fhir/StructureDefinition/nzf-cautions",
+      "valueMarkdown": "individuals with risk factors for paracetamol-induced hepatotoxicity—risk of hepatotoxicity at standard therapeutic doses, see below; concomitant enzyme inducing drugs (may increase levels of hepatotoxic metabolites—see Interactions checker); risk of high anion gap metabolic acidosis in those taking paracetamol long-term with additional risk factors such as severe illness (including renal impairment, sepsis), malnutrition, alcoholism, or concomitant flucloxacillin use—see [Paracetamol can cause high anion gap metabolic acidosis (HAGMA)](https://medsafe.govt.nz/profs/PUArticles/December2025/Paracetamol-can-cause-HAGMA.html) Prescriber Update, December 2025; with intravenous use G6PD deficiency (increases risk of haemolytic anaemia, see Haemolytic anaemia - Sometimes caused by medicines Prescriber Update, December 2019)\nParacetamol-induced hepatotoxicity Individuals with pre-existing hepatic impairment, or risk factors for depleted glutathione stores such as chronic malnutrition, dehydration, low body-mass index, or chronic excessive alcohol use may be at increased risk of developing hepatotoxicity at standard therapeutic doses; use with caution and reduce the dose.\nBefore administering, check when paracetamol was last administered, and check the cumulative paracetamol dose via all routes of administration over previous 24 hours. Overdosage with paracetamol is particularly dangerous as it may cause liver failure resulting in the need for liver transplant, or death. Hepatic damage is sometimes not apparent for 4 to 6 days (see Paracetamol poisoning).\n\nExcipients May contain sulfites; risk of hypersensitivity reaction especially in asthmatics—see also notes"
+    }
+  ]
+}
