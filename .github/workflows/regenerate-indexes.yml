@@ -1,4 +1,4 @@
-regeneraname: Regenerate Medication Indexes
+name: Regenerate Medication Indexes
 
 on:
   push:
